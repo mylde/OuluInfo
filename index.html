@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infoa Oulusta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Infoa Oulusta</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Yleistietoa Oulusta</a></li>
+                <li><a href="#history">Historia</a></li>
+                <li><a href="#culture">Kulttuuri</a></li>
+                <li><a href="#attractions">Nähtävyydet</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Yleistietoa Oulusta</h2>
+            <img src="oulu.jpg" alt="Oulu" class="city-image">
+            <p>Oulu on kaupunki Pohjois-Pohjanmaalla Perämeren rannikkolla, jossa asuu noin 216 000 ihmistä. Kuvassa Oulun kuuluisa toripoliisi</p>
+            <button id="info-btn">Lisätietoja Oulusta</button>
+        </section>
+
+        <section id="history">
+            <h2>Historia</h2>
+            <p>Oulun historia ulottuu yli 400 vuoden taakse, sillä se perustettiin vuonna 1605 ja on sen lisäksi Pohjois-Suomen vanhin kaupunki. Historian saatossa Oulu on toiminut myös tärkeänä kauppapaikkana.</p>
+        </section>
+
+        <section id="culture">
+            <h2>Kulttuuri</h2>
+            <p>Oulussa on monimuotoista kulttuuria, jota on muun muassa kirjallisuus, taide ja erilaiset festivaalit.</p>
+            <button id="culture-btn">Katso lisää kulttuurista</button> 
+        </section>
+
+        <section id="attractions">
+            <h2>Nähtävyydet</h2>
+            <ul id="attractions-list"></ul> 
+            <table id="attractions-table">
+                <caption>Nähtävyyksien aukioloajat</caption>
+                <thead>
+                    <tr>
+                        <th>Nähtävyys</th>
+                        <th>Aukioloajat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
